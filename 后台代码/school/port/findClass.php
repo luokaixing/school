@@ -1,5 +1,6 @@
 <?php
-    header('content-type:text/html;charset=utf-8');
+	error_reporting(0);
+        header('content-type:text/html;charset=utf-8');
   	include '../base.php';
   	$name=$_POST['class_no'];
 	$grade=$_POST['class_grade'];
